@@ -321,6 +321,7 @@ windows."
     'pdf-continuous-scroll-mode
     (kbd "a l") #'pdf-cscroll-annot-list-annotations))
 
+;;;###autoload
 (define-minor-mode pdf-continuous-scroll-mode
   "Emulate continuous scroll with two synchronized buffers"
   nil

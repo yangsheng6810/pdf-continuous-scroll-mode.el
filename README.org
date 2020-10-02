@@ -14,11 +14,6 @@ install the package (using Quelpa) by adding the following lines to the list of
                                          :fetcher github
                                          :repo "dalanicolai/pdf-continuous-scroll-mode.el"))
 #+end_src
-Subsequently load the file or add the following lines to your dotfile:
-#+begin_src emacs-lisp
-  (with-eval-after-load 'pdf-view
-    (require 'pdf-continuous-scroll-mode))
-#+end_src
 Then when you open a file in pdf-tools you can just toggle the mode on and
 of using =M-x pdf-continuous-scroll-mode=. If you like to to start pdf-tools with
 the minor mode activated then add a hook by placing the following lines in your
